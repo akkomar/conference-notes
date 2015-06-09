@@ -8,4 +8,10 @@
 ## Keynote
 * conflict free replicated data types
 
-## Off heap memory
+## Type-Safe Off-heap memory for Scala
+
+
+## Scala at Twitter
+* interesting build system
+* single repo
+* Jenkins, Iron (git-aware Mesos framework), http://pantsbuild.github.io/ (similar to Google's Basel)
