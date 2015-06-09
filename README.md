@@ -15,3 +15,16 @@
 * interesting build system
 * single repo
 * Jenkins, Iron (git-aware Mesos framework), http://pantsbuild.github.io/ (similar to Google's Basel)
+* git review sandbox - runs tests atom CI infrastructure
+* git review submit - compile, populate buildcache, merge to master
+* source repo layout:
+** shared code: root/src/scala/...
+** projects: root/project/src/scala/...
+* Birdcage - single repo with all code:
+** shorten deprecation cycles
+** top-to bottom continuous integration testing
+** git bisect across continuous history
+
+*
+*
+*
