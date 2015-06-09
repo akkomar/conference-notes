@@ -27,5 +27,6 @@
 * pants vs sbt: sbt doesn't support source steps (something that Basel introduced?), maybe it will in the future?
 * right now pants uses zinc (http://benjyw.com/post/29540093638/zinc-and-pants) and zinc uses sbt directly
 * want to use Abide (https://github.com/scala/scala-abide) - code checking and validation
+* pants has incremental compilation overhead, they want to switch to sbt-server
 * 
 *
