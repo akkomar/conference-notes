@@ -37,7 +37,11 @@
 ### Day 3
 
 ## A purely functional approach to building large scale applications
-
+* scalaz monad transformers
+* shapeless-scalacheck generates arbitrary instances of case classes
+* futures in for comprehension do not run in parallel - instead of starting them beforehand try using applicatives
+* scalaz task
+* capsicle
 
 ## Paypal's reflections on four years of Scala in practice
 * Spray routes generated from specs with swagger codegen
