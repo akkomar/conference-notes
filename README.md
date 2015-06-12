@@ -97,3 +97,4 @@
 
 ### Random remarks
 * Astyanax doesn't work with Cassandra 2?
+* clojure agents vs new akka actors (project gambla)
