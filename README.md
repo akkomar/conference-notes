@@ -98,3 +98,4 @@
 ### Random remarks
 * Astyanax doesn't work with Cassandra 2?
 * clojure agents vs new akka actors (project gambla)
+* MDC (logging) doesn't work in non-blocking model (it's based on threadlocals)
