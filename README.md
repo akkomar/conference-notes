@@ -80,6 +80,11 @@
 * paypal scala style guide (on github), also scalastyle configuration which is enforced on every build with sbt plugin
 * build tool strict dependency convergence
 
+## SBT
+* Yet Another Build tool - similar to Google's blaze
+* sbt 0.13.9-m1 - faster dependency resolution
+* bad state watchdog
+
 ## Finagle
 * threads are not free (JVM uses native threads, they consume memory, they introduce gc pressure (garbage collector has to know which objects are reachable, information about references is taken from stacktraces))
 * has backpressure
@@ -99,3 +104,4 @@
 * Astyanax doesn't work with Cassandra 2?
 * clojure agents vs new akka actors (project gambla)
 * MDC (logging) doesn't work in non-blocking model (it's based on threadlocals)
+* destroyallsoftware WAT talk
