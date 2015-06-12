@@ -36,6 +36,16 @@
 
 ### Day 3
 
+## Types vs tests
+* good book: working effectively with legacy code
+* type signature is a theorem, function definition is a proof
+* property based tests
+* tests calculate what types are unable to prove
+* if in property-based test you have `forall`, consider introducing a type
+* tests == there exists
+* types == forall
+* mutation testing
+
 ## A purely functional approach to building large scale applications
 * scalaz monad transformers
 * shapeless-scalacheck generates arbitrary instances of case classes
