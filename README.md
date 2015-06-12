@@ -38,6 +38,10 @@
 * regular profiling using Gatling (on dedicated environment, checking if performance is not degrading, updating goals as they progress (get faster))
 * use hipchat or slack for communication in the team
 
+## Lambda architecture
+* data locality webinar - datastax academy (Spark/Cassandra)
+* user defined types (Cassandra)
+
 
 ### Day 3
 
