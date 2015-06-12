@@ -8,6 +8,14 @@
 ## Keynote
 * conflict free replicated data types
 
+## ???
+* Future.sequence
+* don't use implicit methods, use implicit classes - language is going in this direction (you need to import implicits in order to create implicit method, but you don't need any imports in order to create implicit class)
+* repl colors ($ scala color)
+* handling exceptions - use either if you don't have exceptions - they are expensive to construct
+* value classes - performance
+
+
 ## Type-Safe Off-heap memory for Scala
 
 
