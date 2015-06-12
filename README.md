@@ -37,7 +37,12 @@
 ### Day 3
 
 ## A purely functional approach to building large scale applications
-*
+
+
+## Paypal's reflections on four years of Scala in practice
+* Spray routes generated from specs with swagger codegen
+* paypal scala style guide (on github), also scalastyle configuration which is enforced on every build with sbt plugin
+* build tool strict dependency convergence
 
 ## Finagle
 * threads are not free (JVM uses native threads, they consume memory, they introduce gc pressure (garbage collector has to know which objects are reachable, information about references is taken from stacktraces))
