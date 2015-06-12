@@ -36,6 +36,10 @@
 
 ### Day 3
 
+## Deeplearning
+* unsupervised feature detection
+* netty off-heap allocation (used by Spark?)
+
 ## Types vs tests
 * good book: working effectively with legacy code
 * type signature is a theorem, function definition is a proof
