@@ -30,8 +30,13 @@
 * pants has incremental compilation overhead, they want to switch to sbt-server
 
 ## Hiring and onboarding for your Scala team
-*
-
+* design url shortener , scale it
+* twitter scala school
+* scala neophyte guide
+* enforce compiler warnings
+* scalastyle violation on Jenkins fails the build
+* regular profiling using Gatling (on dedicated environment, checking if performance is not degrading, updating goals as they progress (get faster))
+* use hipchat or slack for communication in the team
 
 
 ### Day 3
@@ -75,3 +80,7 @@
 ** many protocols
 ** active community
 ** tested in high scale
+
+
+### Random remarks
+* Astyanax doesn't work with Cassandra 2?
