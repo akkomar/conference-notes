@@ -48,6 +48,7 @@
 
 ## Lambda architecture
 * data locality webinar - datastax academy (Spark/Cassandra)
+* joins (Spark Cassandra connector)
 * user defined types (Cassandra)
 
 
