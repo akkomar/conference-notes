@@ -28,5 +28,27 @@
 * right now pants uses zinc (http://benjyw.com/post/29540093638/zinc-and-pants) and zinc uses sbt directly
 * want to use Abide (https://github.com/scala/scala-abide) - code checking and validation
 * pants has incremental compilation overhead, they want to switch to sbt-server
-* 
+
+## Hiring and onboarding for your Scala team
 *
+
+
+
+### Day 3
+
+## A purely functional approach to building large scale applications
+*
+
+## Finagle
+* threads are not free (JVM uses native threads, they consume memory, they introduce gc pressure (garbage collector has to know which objects are reachable, information about references is taken from stacktraces))
+* has backpressure
+* MUX gc avoidance (works well only on twitter's custom JVM, but nevertheless brings some interesting features)
+* failure detector
+* drawbacks:
+** no Scala futures
+** based on netty 3
+** slow adoption of Scala versions
+* pros:
+** many protocols
+** active community
+** tested in high scale
